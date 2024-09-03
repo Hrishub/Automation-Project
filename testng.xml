@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2"  preserve-order="true" name="All Test Suite">
+
+    <listeners>
+        <listener class-name="hrishabhPandey.TestComponents.Listener">
+        </listener>
+    </listeners>
+    <test
+            name=" Submit OrderTest/Test2">
+        <classes>
+            <class name="hrishabhPandey.Tests.Test2">
+                <methods>
+                    <include name="SubmitOrder"/>
+                    <include name="orderHistoryTest"/>
+                </methods>
+
+
+            </class>
+        </classes>
+    </test>
+    <test
+            name="Error Validation Test">
+        <classes>
+            <class name="hrishabhPandey.Tests.ErrorValidations">
+                <methods>
+                    <include name="LoginErrorValidation"/>
+                    <include name="ProductErrorValidationTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

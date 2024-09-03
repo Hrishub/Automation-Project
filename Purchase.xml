@@ -1,0 +1,13 @@
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/hrishabh.d.pandey/IdeaProjects/SeleniumFrameWork/src/test">
+        <groups>
+            <run>
+                <include name="Purchase"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="hrishabhPandey.Tests.ErrorValidations"/>
+            <class name="hrishabhPandey.Tests.Test2"/>
+        </classes>
+    </test>
+</suite>
